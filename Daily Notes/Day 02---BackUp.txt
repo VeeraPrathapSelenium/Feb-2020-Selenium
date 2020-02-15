@@ -1,0 +1,68 @@
+Variables in java:
+====================
+
+What is meant by a variable and why should i need to learn?
+
+Variables are called as memeory holders to store the data or to send the data in the java program
+
+in java if we want to get the value of a variable , we must retrive by its name
+
+it means that every variavle will be having a unique name;l
+
+how can i create a variable?
+
+as we discussed variables rae used to store the data.
+
+Again this data isize is considered.
+
+We must specify to the compiler how much of space is required
+
+It means that we must need to specify that what kind of data we are going to store inside a variable
+
+
+specifying the type of data is called as "Datatype"
+Datatypes are available in 2 types
+
+	* Primitive types
+	* Non-Primitive
+
+Primitive:
+==============
+int -----inumber of small size 
+float------ decimals
+boolean--- true or false
+double--- decimals with large 
+long---integer with large 
+short
+byte
+char----- single character
+
+Non -Primitive:
+===============
+String,Arrays,Integer,Boolean etc
+
+
+
+Synatx to create a variable:
+----------------------------
+----------------------------
+
+datatype variablename; // declaration
+variablename=someValue;// intilization
+
+
+
+Can i do variable declration and intializationis same line?
+
+Yes.
+
+
+I have 3 varaibles of same type and i need to assign same value for all of these 3 variables, can i do that?
+
+Yes., but how?
+
+
+
+
+
+

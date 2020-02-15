@@ -1,0 +1,192 @@
+How to start writting java program?
+
+==================================
+
+Every user must write the program in a class file
+
+Ther is structure that must be maintain on the classfile
+
+Syntax of a class:
+------------------
+
+
+class ClassName{
+
+
+
+
+
+}
+
+if the there is no main method available, the program will not get executed but it will get compiled
+
+
+Can my classname be a duplicate?
+
+No.
+
+
+I got to know what is the structure of a class, inside the class where can i write the logic or programs?
+
+User must write the programs with in the curly brackets
+
+But we must think about the inner components of a class
+
+There are 5 major components of a class available
+
+	* Variables
+	* Methods
+	* Constructor
+	* Static Block
+	* Instance block
+
+Variables:
+==========
+
+Variables are called as memory holders, which is used to store the data , send the data inside a class or across all the classfiles
+
+To create this varaibles, one must define  the type of data that a variable get store
+
+
+Telling the type of data is called as "Datatypes"
+
+This datatypes re available in 2 ways
+
+	* Primitive datatype
+	* Non-Primitive datatype
+
+
+
+
+
+
+Under Primitive :
+
+int
+boolean
+char
+long
+double
+float
+short
+byte
+
+
+NonPrimitive:
+Arrays,Strings etc...
+
+
+How can i create a variable?
+
+This will be happen in 2 steps
+
+Step 1: Declaration
+
+Step 2: Intialization
+
+Declartion:
+
+syntax: datatype variableName;
+
+in java each statement must end with a semicolon
+
+When we declare a variable a space will be created inside the memory block
+
+Intialization:
+
+Assigning value or setting the value inside the memory block is called as  Intialization
+
+syntax: variableName=somevalue;
+
+********************************************
+
+datatype variableName;//decl
+variableName=somevalue;//ins
+
+Is there any other way to write to create a variable
+
+Yes both declarationb and intialization can be do in a same line
+
+syntax:datatype variableName=somevalue;
+
+When you know that all the variavbles are belongs to same type
+can we declar and assign them all together?
+
+Yes:
+
+Syntax:
+datatype var1,var2,var3,var4..varn;
+
+var1=var2=var3=Somevalue;
+
+
+
+Statement:
+
+I have created a variable z with somename, but i didnt store anyvalue into it
+
+i have create another variable called as some x and i assigned x=30;
+
+
+now i wrote the expression as 
+
+z=z+30;
+
+what will be the outout?
+
+This behave differently;
+
+When we use this logioc inside a main method, you will be getting a compile error
+syaing that z is not intialized
+
+
+Note:
+Inside a method if you declared a variable but not intialized, when you use the unintialized variable, JVM will throw an exception saying the unintialized variables can not be used.
+
+
+I have an expression as below
+		int x,z;
+		z=0;
+		x=30;
+		
+		
+		z=z+x;
+		
+		System.out.println(z);
+
+How z is storing 30 not zero?
+in java a variable can store max of one value
+
+whenwe re-intilized a variable the old value will get overwrite.
+
+
+
+Problem Statement 1:
+
+I have 2 variables say x and y each of them have different values say as 10 and 20
+
+if i print x i should get 20
+
+if i print y should get 10
+
+Conditions :do not use any other variable except x and y
+
+
+
+Problem Statement 2:
+
+I have 2 variables say x and y each of them have different values say as 50 and 80
+
+Assume those are ages of two persons
+
+Format a string and print that "Age of Person 1 is ***** and age of person 2 is ***"
+
+
+
+
+
+
+
+
+
+

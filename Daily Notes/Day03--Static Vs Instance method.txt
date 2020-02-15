@@ -1,0 +1,83 @@
+Methods:
+================
+
+Method is a block of code where we can write business logic inside it which is used for the purpose of reusability.
+
+
+
+Method should not create inside main method.
+
+We must create a method outside of the mainmethod but inside of a class.
+
+
+A method can accept any number of inputs. Accepting inputs by the method is called as "Parameters"
+
+Send inputs to the method by the user is called as "Arguments"
+
+A method , once it completed its logic written by the user , can send back a value as an output, this sending process is called as "Returning a value"
+
+it is not mandatory taht every method having return value and parameters.
+
+Syntax:
+=======
+
+accessspecifier  static/instance  returntype methodName()
+{
+
+
+}
+
+Can i assin a method to a variable?
+
+Yes, only if that particular method is  returning some value.
+
+
+After return statement can i write any other logic?
+No, we are not suppose to write any other logic after return statement.
+
+Beacuse compiler willthink that after return statements , the method is ended.
+
+After return statement , what ever u write, it will be taken as unreachable code.
+
+
+
+Problem statement:
+====================
+
+Ram has created a method, assigning different values to variables.
+But there is a variable , which got declared but not intialized.
+
+in some place while writting the logic inside amethod he used this un intilaized varaible.
+
+What is the out put or what is behaviour in this situation?
+
+Answer:
+Compile time error.
+
+Reason, when a variable is declared inside amethod and its is not intialized correctly, the unintialized variable can not be used in any logic inside that method.
+
+
+
+
+Static vs instance
+====================
+
+Static and instance they both deal with memory management
+
+
+for all static members ie variable or methods the memory will be allocated by class itself.
+
+for all instance members the memory will be allocated by the object of that particular class.
+
+
+Note:
+All the static members can be used directly by the classname
+
+All the instance variable accessed by the object of the class.
+An object of the class, can be access both static and instance also.
+
+
+
+
+
+
