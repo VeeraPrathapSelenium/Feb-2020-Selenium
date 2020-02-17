@@ -1,0 +1,55 @@
+Types of variables:
+=======================
+
+1.Static variable
+2.Instance Variable
+
+
+3.Local Variables
+
+
+
+Global(Static/Instance)
+------------------------
+
+Variables which are declared out side the method ,inside a class is called as global variable.
+
+These variable can access, through out the program any where.
+
+Local Variables:
+=====================
+
+These variables are created inside the method only.
+
+These variables can not be accessed out side the method.
+
+The life time will be only within the method.
+
+
+Note:
+We can not create a static variable inside a instance method.
+
+
+
+How to create an object to the class?
+
+Object is called as an instance of a class.
+it allocates memeory to the instance related items.
+
+using object we can access both static and instance related items.
+
+static items can also be accessed with the classname .
+
+
+There are two types of objects available
+
+	* named object
+	* nameless object
+
+named object:
+***************
+
+ClassName somerefvariable = new ClassName();
+new ClassName();---->>object
+
+

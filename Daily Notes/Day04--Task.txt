@@ -1,0 +1,25 @@
+Task:
+
+I want to create an app for a student registrtion.
+
+Rhis app must have functionality like adding student, delete student, search student.
+
+
+I must be in the position to send only details like name,place,age and class
+
+Now you must create a functionality in such a way where you can add a student to class, delete and serach.
+
+
+But i need to see see the deatils like the following
+
+Output format :
+--------------------------
+Student number(1)  is created successfully..!!
+
+Name : ****
+Place : ****
+Age : *****
+Registered Session : ******
+Roll Number : number(1)
+
+

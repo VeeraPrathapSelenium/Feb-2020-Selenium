@@ -1,0 +1,10 @@
+When you make a variable as global either static or instance
+
+If you dont intialize them , then the default values will get added.
+
+These default values are depend on the datatype.
+
+int--0
+float---0.0
+long--0
+double--0

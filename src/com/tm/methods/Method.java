@@ -4,7 +4,7 @@ public class Method {
 
 	public static void main(String[] args) {
 		int output=addTwoNumbers(1,5);
-		test();
+		
 
 	}
 	
