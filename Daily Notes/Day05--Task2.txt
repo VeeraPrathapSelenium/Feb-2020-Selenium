@@ -1,0 +1,19 @@
+Create a class without a main method
+
+have 4 variables, 2-static and 2 -instance
+
+create 3 methods
+
+2 instance and one is static
+
+
+access all the four variables inside the methods.
+
+
+
+
+Create a another class, with main method
+
+print all the static variables using classname
+
+access the method names using object.

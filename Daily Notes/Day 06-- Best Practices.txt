@@ -1,0 +1,59 @@
+Best Practise to follow:
+========================
+
+1.Variable name must meaningfull probobly it should be relavant to the process that we are working on
+
+x,y,z
+
+Your variable must speak , what exactly it is storing
+
+username
+password
+age
+
+2.Variable name must be too length, it should be readable
+
+3.Variable name should not have any spaces in between
+
+4.We can use "_" to separe the names of the variable
+
+5.No other speacial character is allowed to have in the variable name other than "_"
+
+6.mostly for better practive we give variablename starting with small letters and proceed with capital 
+
+ex:userName;
+
+7.Can not starts with a numeric, but a numeric can be at anyplace other than starting position.
+
+8.A variable can start with underscore
+
+9.a variable is still a case sensitive
+
+10.A avariable can be reintialized, but not redeclared
+11.A variable can hold only one value at a time
+12.it is always good to have a comment before  your logic, such taht the reviewer or your peer will understand what the logic for
+
+Comments:
+
+Readable note , which will be ignored by the compiler
+comments are of two types
+
+	* Single line comments--->> //
+	* multiline comments-->/* ....*/
+
+When we create a method allways have proper headers attached to it
+
+/*
+method name:
+description:
+input parameter:
+output parameter:
+designer:
+Reviewd:
+lastmodified
+modified reason:
+
+*/
+	
+
+

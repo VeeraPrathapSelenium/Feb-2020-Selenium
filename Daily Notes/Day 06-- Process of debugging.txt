@@ -1,0 +1,40 @@
+Debugging:
+============
+
+what do you mean by debugging?
+
+Analyzing line by line code in run time is called debugging.
+
+debugging will make the user to understand how the variable values and flow execution is running in the application
+
+it helps the user to fix the code related issue.
+
+
+though your are very new to the project, and if some one asked you to analyze the code by your own
+
+How to start debugging process?
+
+First we must need to insert a break point.
+
+what is meant by a breakpoint?
+
+it is the place from where you need to do the debugging.
+
+2.Run the program in debugmode
+
+once we started debugging there 3 steps to keep in mind
+
+	* Step over
+	* Step into
+	* Step out
+step Over:
+
+this is used  in 2 ways
+
+1.debug line by line code
+2.while debugging you came across a method, now if you dont want to go inside the method and anlyse the code available in the method , we can simply sip the method by using stepover
+
+here skip mean , it will execute the logic available inside teh method, but we will not get eneter into the method 
+
+
+
