@@ -1,0 +1,90 @@
+conditional satements are used to alter the flow of execution based on some user given conditions
+
+
+what type of conditions can we write?
+
+equals (==)
+greater than (>)
+lessthan (<)
+greater than equal (>=)
+lessthan or equal(<=)
+
+and (&&)
+or  (||)
+not (!)
+
+conditional statements:
+=======================
+
+simple if
+if else
+else if
+switch 
+(nested )
+
+
+
+simple if:
+checking only for a true condition.
+
+here it will check if the condition is true, if the condition is true then only the body will get execute
+
+syntax:
+
+if (somecondition){
+//Body
+}
+
+if else:
+=======
+when the if condition is not true, without checking any other condition it will execute the code available in the else block
+
+syntax:
+
+
+if(somecondition)
+{
+
+// logic here
+
+}else{
+//alternative logic here
+}
+
+else if:
+=========
+if the main if condition is failed,checking for alternative if condition is called  else if condition
+
+if(somecondition)
+{
+//some logic
+}
+else if(some condition){
+//some logic
+}
+else if(some logic)
+{
+//some logic
+}
+else
+{
+//optional not mandatory
+}
+
+Writting toomany else if conditions is not a optimal way
+
+eridate this with replacing else if with switch cases.
+
+when you know what are the possible condition , if it is more than one then , use directly switch case
+
+switch case will not check each condition, if there is a matching condition (case) exist , it will execute only that particular case or condition alone
+
+
+
+
+
+
+
+
+
+
