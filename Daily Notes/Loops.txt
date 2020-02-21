@@ -1,0 +1,52 @@
+Looping statements:
+
+looping statements are used to execute same statement for a specific number of times
+
+
+To paramnetrize the data via variables we can also use loops
+
+Java supports
+
+	* for
+	* while
+	* do while
+	* for each
+
+for loop is called as definite loop, it will have a starting point and a ending point
+
+endingpoint defines that how many time, your loop should run or execute
+
+for(int somevar;somecondition;somevar++){
+}
+
+Using for loop can you print a 5 table
+
+5 * 1 = 5
+5 * 2 =10
+5 * 3 =15
+
+5 * 20 =100
+
+
+While loop:
+===========
+
+this loop is called as indefinte loop
+
+it will check very first the condition is true, if true it allows to enter into the body, else it will not allow
+
+when the condition is true, we must ensure that we have a failing condition available.
+
+else , the loop will keep running without a break;
+
+this will leads to performance leaks
+
+
+Do While:
+=========
+This will not check for any condition on the first time
+It will execute body
+On second iteration on wards, it will check for condition
+
+Here at least once my code will get executed.
+
