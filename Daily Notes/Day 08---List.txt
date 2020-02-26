@@ -1,0 +1,63 @@
+How to create a list?
+
+List somevariable=new ArrayList();
+
+List will be apart of a package called util.
+
+
+
+How to add element into a list?
+
+Use a method called add
+
+How can i get an element from a list?
+
+We all know that list will allows the duplicate
+List will preserve the order of insertion
+List will alows the duplicate
+List can be iterate over a loop and aswell as on an iterator called listiterator.
+
+Items can be retirved using theindex position.
+
+When ever we added a item to list it will be inserted at the respective index position.
+
+
+In the list we have a method called "get"
+
+Syntax:
+listvariable.get(indexposition)
+
+How to iterate a list?
+
+Using a for loop
+	* get length of the list using a method called size()
+	* keeping the variable condition on size run a loop
+
+Can i remove an item from alist?
+Yes we can remove a n item using a method called "remove"
+Note we must specify the index position from where we need to delete an item.
+
+can i clear all the elements in the list?
+
+Yes we can do using clear method.
+
+Problem statement:
+--------------------------
+I have a list of students who are part of section or class
+
+I have a lsit of student who are in music class.
+now i need to verify if these music class students are part of actual section or not.
+
+Hint : very if list 2 is a subset of list1
+
+
+yes we can do this using a method called "containsAll()"
+
+list1.conatainsAll(list2)
+
+this method will return a boolean value.
+
+
+
+
+

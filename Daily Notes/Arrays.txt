@@ -1,0 +1,62 @@
+Arrays:
+
+Arrays are used to store collection of items of same datatype
+
+Arrays are are size based 
+
+Once you declared the size we can not change it
+
+Arrays are called as homogenius
+
+All the elements we store inside an array will be store at respective index position
+
+index will start from 0
+
+To get the length of an array method length is used.
+
+Array is an iteratble for a for , while , do while and for each
+
+
+Syntax:
+
+ClassName[] someName=new ClassName[Size]
+
+ClassName[] someName={}
+
+How to add an item to the array?
+ClassName[] someName=new ClassName[Size]
+someName[index position]=some value
+
+indexposition must be less than the size given.
+
+if you violated the above rule, you wil get an expection array index out of bound exception.
+
+
+
+How to get an item from an array?
+Through idex.
+
+Syntax:
+
+variablename[index]
+
+
+
+for each(dataype somename:collectionobject)
+{
+
+sysout(somename)
+}
+
+
+
+As we came to know that , Arrays are homogenius, to overcome that ,hetrogenius arrays were introduced.
+
+in java for every class, the parent class is called as "Object" class.
+
+
+Thsi Object class provide an array called "Object" array
+
+This Object array can store of any type of data
+
+ 
