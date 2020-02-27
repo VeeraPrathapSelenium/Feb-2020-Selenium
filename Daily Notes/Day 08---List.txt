@@ -59,5 +59,19 @@ this method will return a boolean value.
 
 
 
+To use Aggregate functions, on the collection object called list we must use the methods which are available under a class called Collections
+
+Note that , most of us will get confused here that
+
+Collection is an interface
+Collections is an utility class
+
+Ex: I have a list having all the salary details of emplyees
+i want sort the list
+
+
+
+
+
 
 
