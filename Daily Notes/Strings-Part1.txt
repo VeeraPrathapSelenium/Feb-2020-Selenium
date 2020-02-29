@@ -1,0 +1,122 @@
+Strings:
+
+String are called as immutable
+
+Strings will always represent in double quotes
+
+Strings is group of words special symbol, numerics etc
+
+Any thing that represent in double quotes we name it as string
+
+This string concept is very importnat.
+
+One must understand how string will get memory allocated
+
+Understand what are the different ways of creating a string
+
+What is type of memory allocated everytime when you create a string
+
+Understand the importance of "==" and .equals()
+
+
+String as a immutable:
+======================
+Can create in two different ways
+
+1.Using String as an datatype
+2.Using String constructor
+
+
+String s="india";//string as a datatype
+		
+String str=new String("Hello");//using constructor
+
+When we declare a string with String datatype, the memory will choosen as String Constant Pool Memeory
+
+How memory allocation will be happen of a string in SCP:
+--------------------------------------------------------
+When we declare a string with the datatype, it will directly go into the SCP, and check if there is a match with contenet is avcailable, 
+
+if there is no match available, then it will create a new memory block
+
+if there is amatch available, then it will share the memeory block
+
+When we create a String with string constructor,it will be go directly in to the heap memeory.
+When ever we create a String with the constructor, every time a new memory block will be created.
+
+
+
+Why "==" and equals() are important?
+
+== is used to compare two numbers
+
+When we apply == on strings,it will compare the memory address.
+
+When we create a String with the string datatype, and if we use ==, As both of the strings are mapped to same memory address, we will always get compare with memeory address only but not with the content
+
+So we always get "true"
+
+
+.equals() is method which is used to compare the conetent of string
+
+
+MethodS:
+==============
+equals():
+This method is used to compare the conetent of string
+Syntax:
+String1.equals(String2)
+
+Note:Case sensitive is matter 
+
+equalsIgnoreCase():
+This method is used to compare the strings by ignoring the cases of String
+
+contentEquals()
+This method is used to comapre with definete content of a string.
+It works same as like equals method
+
+toUpperCase() 
+this method isued to convert the given string into upper case
+
+toLower()
+this method is used to convert the given String into lower case
+
+length():
+
+this method is used to get length of a given of given source String
+
+it include white spaces also
+
+trim():
+this method isused to remove the spaces in starting and at ending of the given source string.
+
+it will not remove teh spce in between
+
+charAt():
+this method is used to get the character by character from user given index position
+
+toCharArray()
+this method is used to convert the string as an character array.
+
+substring()
+
+this method is used to get or crop the sequence of characters
+
+In substring second parameter is always an optional
+
+if we dont specify the second parameter, it will crop the entire string from where you have given
+
+
+
+
+
+
+
+
+
+
+
+
+
+
