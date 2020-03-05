@@ -1,0 +1,74 @@
+Constructor:
+
+Constructor is to intialize the object of a class.
+
+It will intilize the class level variables
+
+Constructor name will look like same as Classname
+
+constructor will be in the format of a method, but it can not return a value.
+
+when we want to send data to the class members(variables) we must need to send via a constructor
+
+when ever we create an object of the class, constructor will get called.
+
+By default there will be a zero argument based constructor available in the background.
+
+it means that there are different types of constructors available
+
+parametrized constructors
+non parameterized constructors
+
+
+By default we will have zon parameterized constructor
+
+How to call a constructor:
+when ever we create an object to the class, constructor will be trigger
+
+How can i call a contructor from other constructor?
+
+Yes we can do that by using a method called 
+this()
+
+but we need to remember here is, the calling statement must be always the first statement.
+
+there should not be multiple calling statements
+
+for suppose , i want to call 2 argument based constructor from single argument constructor
+
+this(argument1,argument2)
+
+
+I have my class variables names and constructor variable names as same, i am confused with values that they are holding, how can i make a jsutification between class level variables and constructor level variables?
+
+When classlevel level variables and constructor levle variables having same name, constructor will take the constructer level variable names only which is called as local variables.
+
+to differentiate between class and constructor level variables we use this keyword
+
+this is used to represent current class variables
+
+also this keyword can be used inside the instance methods only.
+
+this can not be used inside the static blocks
+
+
+can i assign the constructor level variable values to the classlevel variable?
+
+Yes we can using this keyword .
+
+
+Ram have a school application where he can send  data like studentname,age and standard.
+
+he want you to develop a logic where he can store all the student details and you must generate a unique id for each student every time and it must be inrementail and sequential.
+
+What is comparator and what is comparable 
+
+
+
+
+
+
+
+
+
+

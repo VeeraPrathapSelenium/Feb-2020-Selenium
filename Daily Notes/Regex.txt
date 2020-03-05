@@ -1,0 +1,28 @@
+How to write patterns:
+
+
+character set---[]
+[A-Z][a-z][0-9]
+
+[A-Za-z0-9]
+
+Pairs or count of characters---{size}
+
+[A-Z]{4}
+
+To include special charcter: \special character
+
+To include any number of charcters except new line==*
+
+To include any number of charcters including a new line==.*
+
+only alphabets===\D
+only numeric ---\d
+
+include spaces----\s
+
+not condition====[^]
+
+
+
+
