@@ -1,0 +1,99 @@
+i have a 3 classes
+
+class1=Parent
+class2=child1
+class3=subchild
+
+now in my parent class i have 3 variables with different values, 3 methods available
+
+in child 1 have 5 variables which are not same as parent, 2 methods also which are not same as parent
+
+
+subchild have only a main method.
+
+The relationship they have here is multilevel inheritance.
+
+My Question is can the subchild access, the parent class properties?
+
+Yes.
+
+
+For the same question, can the child or subchild modify the values of the variables that are available inside the parent class?
+
+When there is no restriction, applied all the childs under the parent can go directly and change the repective values.
+
+
+Can the parent class restrict the child class not to modify their properties?
+
+this can be achive making the variable as final
+
+
+
+in my parent class, i have a variable as static, in child class can i use that variable at class level?
+
+No, we can reintialize it but can not access.You can access them inside a method only
+
+How can i avoid accessing parent class variables or methods by a child class?
+
+Yes simply make the variables or methods to be private.
+
+
+How can i avoid a class to get inherited by a child class?
+
+Yes just keep a keyword called "final" before the classname
+
+
+
+when i have proper inheritance , can i use my this keyword in childclass and can i access the parent class variables?
+
+class parent{
+
+public int a=10;
+
+}
+
+class child extends parent{
+this.a=50;
+}
+
+Yes we can use this keyword to access the parent class variables.when there is no common name variables available in both parent and chld class.
+
+if the parent class and the child class is having same name then how can i differentiate between them?
+
+to represent the parent classvariable use super
+to represent the current classvariable use this
+
+
+Role of a constructor in inheritance?
+
+
+Parent class have an constructor
+Child class does not have an constructor what is teh behaviour?
+
+No, it will throw an exception:
+Implicit super constructor Parent() is undefined for default constructor. Must define an explicit constructor
+
+
+To avoid this situation, either we must go to parent class constructor and define the zero argument based constructor or create child class parametrized constructor.
+
+Reason:
+When we dont create any constructor for a class, by default there will be a zero argument based constructor will be created by the JVM.
+
+in this zero argument based default constructor will have first statement as super()
+
+when we create any constructor either having inheritance or not no matter the default constructor will get removed.
+
+
+so i underatnd that to reffer a parent class constructor super () is the statement must be used againb it must be the first calling statement 
+
+
+
+
+
+
+
+
+
+
+
+

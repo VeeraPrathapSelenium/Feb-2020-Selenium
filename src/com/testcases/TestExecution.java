@@ -1,6 +1,6 @@
 package com.testcases;
 
-public class TestExecution {
+public class TestExecution extends Tc_01{
 
 	public static void main(String[] args) {
 
